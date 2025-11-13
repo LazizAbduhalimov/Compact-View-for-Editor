@@ -41,73 +41,7 @@ A comprehensive Unity Editor extension that provides advanced window management 
 ## Usage
 
 ### Basic Setup
-The package automatically initializes when Unity starts. No additional setup required!
-
-### Settings Configuration
-1. Go to `Window → Editor UI Settings` or find the `EditorUISettings` asset
-2. Configure the available options:
-   - **Hide Title Bar** - Removes the window title bar
-   - **Hide Menu Bar** - Hides the main Unity menu
-   - **Show Window Controls** - Displays minimize/maximize/close buttons
-   - **Show MenuBar Button** - Shows the dropdown menu button
-   - **Hide Status Bar** - Removes the bottom status bar
-   - **Enable Window Drag** - Allows dragging the window from toolbar
-
-### Window Controls
-- **Yellow/Orange circle** - Minimize window
-- **Green circle** - Maximize/restore window  
-- **Red circle** - Close editor (with confirmation)
-
-### Menu Access
-- Click the **≡** button in the toolbar to access all Unity menu commands
-- All menu items are organized alphabetically by category
-
-## Requirements
-
-- **Unity 2021.3** or later
-- **Windows** operating system (uses Windows API)
-- **Editor only** (not for runtime use)
-
-## Architecture
-
-The package follows a modular architecture:
-
-- `WindowControlsCoordinator` - Main orchestrator
-- `WindowButtonsManager` - Handles window control buttons
-- `MenuBarManager` - Manages custom menu dropdown
-- `WindowDragManager` - Handles window dragging
-- `EditorUISettings` - Configuration and persistence
-
-## Technical Details
-
-### Windows API Integration
-The package uses P/Invoke to call Windows API functions for:
-- Window manipulation (minimize, maximize, close)
-- Window dragging simulation
-- Title bar and menu bar hiding
-
-### UI Framework
-- Built with **UIElements** for modern, responsive UI
-- Programmatic texture generation for smooth circle buttons
-- Anti-aliased graphics for professional appearance
-
-### Safety Features
-- Confirmation dialogs for destructive actions
-- Automatic error handling and logging
-- Graceful fallbacks for edge cases
-
-## Compatibility
-
-- ✅ Unity 2021.3+
-- ✅ Unity 2022.x
-- ✅ Unity 6000.x
-- ✅ Windows 10/11
-- ❌ macOS (Windows API dependency)
-- ❌ Linux (Windows API dependency)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
+Need to restart unity after installation
 
 ## License
 
