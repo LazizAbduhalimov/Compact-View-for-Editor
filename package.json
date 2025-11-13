@@ -1,0 +1,22 @@
+{
+  "name": "com.laziz.compact-view-for-editor",
+  "version": "1.0.0",
+  "displayName": "Compact View for Editor",
+  "description": "Advanced window management for Unity Editor with title bar hiding, custom menu bar, window controls, and drag functionality.",
+  "unity": "2021.3",
+  "unityRelease": "0f1",
+  "dependencies": {},
+  "keywords": [
+    "unity",
+    "editor",
+    "window",
+    "controls",
+    "ui",
+    "toolbar",
+    "menubar"
+  ],
+  "author": {
+    "name": "LazizAbduhalimov",
+    "url": "https://github.com/LazizAbduhalimov"
+  }
+}
